@@ -1,0 +1,29 @@
+p {
+    color: #110acf;
+    width: 270px;
+    border: 1px solid #110acf;
+}
+
+html {
+    font-size: 13px;
+    font-family: "Monospace", monospace;
+    background-color: #110acf;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #c0f0ec;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
