@@ -1,6 +1,3 @@
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Danny DeVito!";
-
 const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
@@ -15,3 +12,12 @@ myImage.onclick = () => {
 document.querySelector("button").addEventListener("click", function () {
     alert("Glad you agree, he is awesome!");
 });
+
+function submitName() {
+    const userName = document.getElementById("userName").value;
+    alert(`Hello, ${userName}!`);
+    const goToWebsite = confirm("Would you like to learn more about mountain goats?");
+    if (goToWebsite) {
+        window.location.href = "https://www.nationalgeographic.com/animals/mammals/facts/mountain-goat"; // Replace with the desired URL
+    }
+}

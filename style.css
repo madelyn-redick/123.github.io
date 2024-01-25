@@ -1,26 +1,23 @@
-p {
-    color: #110acf;
-    width: 270px;
-    border: 1px solid #110acf;
+p.bio {
+    color: #5628a6;
 }
 
 html {
-    font-size: 13px;
+    font-size: 14px;
     font-family: "Monospace", monospace;
-    background-color: #110acf;
+    background-color: #a0cffd;
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
+    font-family: "Courier New", courier-new;
+    color: rgb(173, 57, 134)
 }
 
-body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #c0f0ec;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+h3 {
+    font-size: 20px;
+    text-align: center;
 }
 
 img {
